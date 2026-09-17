@@ -1,0 +1,5 @@
+.gallery {
+    background: url('../assets/gallerBg.webp');
+    background-position: center;
+    background-size: cover;
+}

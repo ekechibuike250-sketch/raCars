@@ -1,0 +1,9 @@
+.feature {
+    /* background-Image: linear-gradient(to right, #f4faff 0%, #c6d1db 50%, #e3eaf1 100%), url("../assets/heroback.webp"); */
+    background-image:
+        linear-gradient(to top,
+            rgba(11, 13, 15, 0.9),
+            rgba(23, 26, 29, 0.5)),
+        url("../assets/heroback.webp");
+
+}
