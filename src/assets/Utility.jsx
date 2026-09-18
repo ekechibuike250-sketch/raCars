@@ -1,5 +1,5 @@
 import heroimage from '../assets/redHeroCamero.png'
-import herobgImage from '../assets/heroback.webp'
+import herobgImage from '../assets/heroBack.webp'
 import featureImage1 from "../assets/feature6.webp"
 import featureImage2 from "../assets/feature5.webp"
 import featureImage3 from "../assets/feature7.webp"
