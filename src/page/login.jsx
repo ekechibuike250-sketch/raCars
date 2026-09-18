@@ -1,4 +1,4 @@
-import LoginForm from "../forms/loginForm"
+import LoginFormc from "../forms/loginForm"
 import { CircleCheck } from "lucide-react"
 const LoginPage = () => {
     return (
@@ -22,7 +22,7 @@ const LoginPage = () => {
                             <div className="w-3 h-3 md:w-5 md:h-5 rounded-full bg-gold"></div>
                         </div>
                     </div>
-                    <LoginForm />
+                    <LoginFormc />
                 </div>
             </div>
         </div>

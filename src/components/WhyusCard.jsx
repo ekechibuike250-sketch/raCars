@@ -1,6 +1,6 @@
 import FeatureIcons from "./icons"
 import { motion } from 'motion/react'
-const WhyUsCard = (props) => {
+const WhyUsCardc = (props) => {
     return (
         <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }} viewport={{ once: true }} className="p-5 hover:md:border-l hover:bg-surface hover:border-gold transition-all ease-in duration-200 group">
             <div className="icon mb-10 ">
@@ -11,4 +11,4 @@ const WhyUsCard = (props) => {
         </motion.div>
     )
 }
-export default WhyUsCard
+export default WhyUsCardc

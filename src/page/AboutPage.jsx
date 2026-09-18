@@ -1,12 +1,13 @@
-import AboutHero from "../aboutpagecomponents/abouthero"
+
 import OurStory from "../aboutpagecomponents/aboutStory"
 import WhatWeStandFor from "../aboutpagecomponents/whatwestand"
 import Fleet from "../aboutpagecomponents/fleet"
 import AboutCallToAction from "../aboutpagecomponents/aboucta"
+import AboutHeroa from "../aboutpagecomponents/abouthero"
 const AboutPageC = () => {
     return (
         <div className=" ">
-            < AboutHero />
+            < AboutHeroa />
             <OurStory />
             <WhatWeStandFor />
             <Fleet />

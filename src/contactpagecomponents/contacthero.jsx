@@ -1,4 +1,4 @@
-const ContactHero = (props) => {
+const ContactHero1 = (props) => {
     return (
         <section className="hero py-20 h-[70vh] bg-cAction">
             <div className="wrapper w-[90%] mx-auto">
@@ -14,4 +14,4 @@ const ContactHero = (props) => {
     )
 }
 
-export default ContactHero
+export default ContactHero1

@@ -1,4 +1,4 @@
-const Pledge = () => {
+const Pledgec = () => {
     return (
         <section className="py-20">
             <div className="w-[90%] mx-auto">

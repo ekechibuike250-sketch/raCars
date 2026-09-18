@@ -1,4 +1,4 @@
-const FleetCta = () => {
+const FleetCtac = () => {
     return (
         <section className="py-27 bg-cAction">
             <div className="w-[90%] mx-auto">
@@ -15,4 +15,4 @@ const FleetCta = () => {
         </section>
     )
 }
-export default FleetCta
+export default FleetCtac

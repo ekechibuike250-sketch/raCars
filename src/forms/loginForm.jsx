@@ -9,7 +9,7 @@ const LoginSchema = z.object({
 
 })
 
-const LoginForm = () => {
+const LoginFormc = () => {
     const [showPassWord, setShowPassWord] = useState(false);
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: zodResolver(LoginSchema),
@@ -52,4 +52,4 @@ const LoginForm = () => {
         </div>
     )
 }
-export default LoginForm
+export default LoginFormc

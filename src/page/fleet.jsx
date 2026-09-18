@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react"
-import FleetHero from "../FleetPageComponents/fleetHero"
-import FleetFilter from "../FleetPageComponents/fleetfilter"
+import FleetHeroc from "../FleetPageComponents/fleetHero"
+import FleetFilterc from "../FleetPageComponents/fleetfilter"
 import FleetGallery from "../FleetPageComponents/fleetgalery"
-import FleetCta from "../FleetPageComponents/fleetCta"
+import FleetCtac from "../FleetPageComponents/fleetCta"
 import { carsgalery } from "../assets/Utility"
-const Fleet = () => {
+const FleetPage = () => {
     const [carList, setCarList] = useState([]);
     const [filter, setFilter] = useState('All');
     const SwitchFilter = (Filter) => {
@@ -22,11 +22,11 @@ const Fleet = () => {
     }, [])
     return (
         <div className="fleets">
-            <FleetHero />
-            <FleetFilter filter={filter} change={SwitchFilter} />
+            <FleetHeroc />
+            <FleetFilterc filter={filter} change={SwitchFilter} />
             <FleetGallery carList={carList} />
-            <FleetCta />
+            <FleetCtac />
         </div>
     )
 }
-export default Fleet
+export default FleetPage

@@ -1,4 +1,4 @@
-import ContactForm from "../forms/contactform"
+import ContactFormc from "../forms/contactform"
 import FeatureIcons from "../components/icons"
 const ContactSection = (props) => {
     return (
@@ -44,7 +44,7 @@ const ContactSection = (props) => {
                     </div>
                     <div className="md:p-5 ">
                         <h2 className="text-section font-heading text-paper font-bold mb-5">Send Us a Message</h2>
-                        <ContactForm />
+                        <ContactFormc />
                     </div>
                 </div>
             </div>

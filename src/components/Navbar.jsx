@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react"
 import MobileNavComponent from "./MobileNav"
 import { useRef, useState } from "react"
 
-const NavBar = () => {
+const NavBar1 = () => {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const Navigate = useNavigate()
     const openMobileNav = () => {
@@ -43,4 +43,4 @@ const NavBar = () => {
         </header>
     )
 }
-export default NavBar
+export default NavBar1

@@ -1,5 +1,5 @@
 import { useRef } from "react"
-import ContactHero from "../contactpagecomponents/contacthero"
+import ContactHero1 from "../contactpagecomponents/contacthero"
 import ContactSection from "../contactpagecomponents/contacAdress"
 import CTA from "../contactpagecomponents/contactCta"
 const ContactPage = () => {
@@ -9,7 +9,7 @@ const ContactPage = () => {
     }
     return (
         <div>
-            <ContactHero scroll={scrollToSection} />
+            <ContactHero1 scroll={scrollToSection} />
             <ContactSection cscroll={csection} />
             <CTA />
         </div>

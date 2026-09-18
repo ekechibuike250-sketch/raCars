@@ -1,4 +1,5 @@
 import { values } from "../assets/Utility"
+import ValueCardc from "../components/valueCard"
 import ValueCard from "../components/valueCard"
 const WhatWeStandFor = () => {
     return (
@@ -10,7 +11,7 @@ const WhatWeStandFor = () => {
                 </div>
                 <div className="card-section grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-5">
                     {values.map((val, index) => (
-                        <ValueCard key={index} title={val.title} description={val.description} icon={val.icon} />
+                        <ValueCardc key={index} title={val.title} description={val.description} icon={val.icon} />
                     ))}
                 </div>
             </div>

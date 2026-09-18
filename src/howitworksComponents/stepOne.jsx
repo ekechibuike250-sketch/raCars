@@ -1,5 +1,5 @@
 import { HowitworksPics } from "../assets/Utility"
-const StepOne = () => {
+const StepOnec = () => {
     return (
         <section className="py-28 bg-surface">
             <div className="w-[90%] mx-auto">
@@ -19,4 +19,4 @@ const StepOne = () => {
         </section>
     )
 }
-export default StepOne
+export default StepOnec

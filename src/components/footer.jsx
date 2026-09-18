@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { footerLinks } from "../assets/Utility"
-const Footer = () => {
+const Footerc = () => {
     return (
         <footer className="footer-section py-10 border-t border-muted bg-ink">
             <div className="w-[90%] mb-10 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-8">

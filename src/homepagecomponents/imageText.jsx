@@ -1,5 +1,5 @@
 import heroTextImage from '../assets/newHeroImage.webp'
-const ImageText = () => {
+const ImageTextc = () => {
     return (
         <section className="imageBg h-[50vh]" style={{ background: `url(${heroTextImage})`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
             <div className="w-[90%] mx-auto pt-8">
@@ -20,4 +20,4 @@ const ImageText = () => {
         </section>
     )
 }
-export default ImageText
+export default ImageTextc

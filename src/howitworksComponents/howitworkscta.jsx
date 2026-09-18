@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-const HowItWorksCTA = () => {
+const HowItWorksCTAc = () => {
     const Navigate = useNavigate();
     return (
         <section className="py-25 bg-cAction">
@@ -16,4 +16,4 @@ const HowItWorksCTA = () => {
         </section>
     )
 }
-export default HowItWorksCTA
+export default HowItWorksCTAc

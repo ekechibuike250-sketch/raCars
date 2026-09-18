@@ -29,17 +29,3 @@ const HomePageGallery = () => {
 }
 
 export default HomePageGallery
-const boy = () => {
-    return (
-        <div>
-            <h2></h2>
-            <p></p>
-            then details with good thick
-            <p className='list1'></p>
-            <p className='list1'></p>
-            <p className='list1'></p>
-            <p className='list1'></p>
-            <button>explore</button>
-        </div>
-    )
-}

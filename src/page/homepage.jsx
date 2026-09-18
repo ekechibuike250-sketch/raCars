@@ -1,34 +1,33 @@
 import HomeHeroComponent from "../homepagecomponents/HomeHero"
-import SearchSection from "../homepagecomponents/Search"
 import FeaturedCars from "../homepagecomponents/Featuredcar"
 import WhyChooseUsSection from "../homepagecomponents/Whychooseus"
-import HowItWorks from "../homepagecomponents/HowitWorks"
-import Testimonial from "../homepagecomponents/testimonial"
-import FAQ from "../homepagecomponents/faq"
-import CallToACtion from "../homepagecomponents/callToaction"
-import CarLogos from "../homepagecomponents/carLogos"
-import Experience from "../homepagecomponents/experience"
+import HowItWorksc from "../homepagecomponents/HowitWorks"
+import Testimonialt from "../homepagecomponents/testimonial"
+import FAQc from "../homepagecomponents/faq"
+import CallToACtionc from "../homepagecomponents/callToaction"
+import CarLogosc from "../homepagecomponents/carLogos"
+import ExperienceC from "../homepagecomponents/experience"
 import HomePageGallery from "../homepagecomponents/homepageMgallery"
-import ImageText from "../homepagecomponents/imageText"
-const HomePage = () => {
+import ImageTextc from "../homepagecomponents/imageText"
+const HomePagec = () => {
     return (
         <div className="homePage">
             <HomeHeroComponent />
-            <CarLogos />
-            <Experience />
+            <CarLogosc />
+            <ExperienceC />
             {/* <SearchSection /> */}
             <FeaturedCars />
             <HomePageGallery />
             <div className="py-20">
             </div>
-            <ImageText />
+            <ImageTextc />
             <WhyChooseUsSection />
-            <HowItWorks />
-            <Testimonial />
-            <FAQ />
-            <CallToACtion />
+            <HowItWorksc />
+            <Testimonialt />
+            <FAQc />
+            <CallToACtionc />
 
         </div>
     )
 }
-export default HomePage
+export default HomePagec

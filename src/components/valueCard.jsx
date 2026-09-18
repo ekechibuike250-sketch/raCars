@@ -1,5 +1,5 @@
 import FeatureIcons from "./icons"
-const ValueCard = (props) => {
+const ValueCardc = (props) => {
     return (
         <div className="value-card bg-surface p-5 rounded border-r border-gold translate-y-0 transition-all duration-200 ease-in hover:-translate-y-3">
             <div className="mb-7">
@@ -10,4 +10,4 @@ const ValueCard = (props) => {
         </div>
     )
 }
-export default ValueCard
+export default ValueCardc

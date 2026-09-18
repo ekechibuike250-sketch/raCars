@@ -1,7 +1,7 @@
 import { faqs } from "../assets/Utility"
 import Accordion from "../components/acordion"
 import { motion } from "motion/react"
-const FAQ = () => {
+const FAQc = () => {
     return (
         <section className='faq-section py-35 bg-surface'>
             <div className="wrapper w-[90%] mx-auto ">
@@ -19,4 +19,4 @@ const FAQ = () => {
         </section>
     )
 }
-export default FAQ
+export default FAQc

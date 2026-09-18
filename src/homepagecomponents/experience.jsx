@@ -1,6 +1,6 @@
 import Experience1 from '../assets/experienc1.webp'
 import Experience2 from '../assets/experirnce2.webp'
-const Experience = () => {
+const ExperienceC = () => {
     return (
         <section className="py-20">
             <div className="w-[90%] mx-auto">
@@ -40,4 +40,4 @@ const Experience = () => {
         </section>
     )
 }
-export default Experience
+export default ExperienceC

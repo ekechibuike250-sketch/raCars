@@ -1,15 +1,15 @@
 import HowItWorksHero from "../howitworksComponents/howItworksHero"
-import StepOne from "../howitworksComponents/stepOne"
+import StepOnec from "../howitworksComponents/stepOne"
 import StepTwo from "../howitworksComponents/step2"
-import HowItWorksCTA from "../howitworksComponents/howitworkscta"
-const HowItWorksPage = () => {
+import HowItWorksCTAc from "../howitworksComponents/howitworkscta"
+const HowItWorksPagec = () => {
     return (
         <div className="how-it-works-page">
             <HowItWorksHero />
-            <StepOne />
+            <StepOnec />
             <StepTwo />
-            <HowItWorksCTA />
+            <HowItWorksCTAc />
         </div>
     )
 }
-export default HowItWorksPage
+export default HowItWorksPagec

@@ -1,4 +1,4 @@
-const CallToACtion = () => {
+const CallToACtionc = () => {
     return (
         <section className="bg-cAction py-32">
             <div className="w-[90%] mx-auto">
@@ -15,4 +15,4 @@ const CallToACtion = () => {
         </section>
     )
 }
-export default CallToACtion
+export default CallToACtionc

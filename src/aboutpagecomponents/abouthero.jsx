@@ -1,4 +1,4 @@
-const AboutHero = () => {
+const AboutHeroa = () => {
     return (
         <section className="py-22 bg-ink  min-h-[60vh] w-[90%] mx-auto">
             <div className="hero-wrapper">
@@ -12,4 +12,4 @@ const AboutHero = () => {
     )
 }
 
-export default AboutHero
+export default AboutHeroa

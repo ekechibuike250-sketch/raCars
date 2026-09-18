@@ -1,5 +1,5 @@
 import { motion } from 'motion/react'
-const HowItWorksCard = (props) => {
+const HowItWorksCardc = (props) => {
     return (
         <motion.div initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 2 }} className="card  p-5  border-muted rounded transition-all duration-150 ease-out ">
             <p className="text-gold font-body text-hero mb-5 text-right">{props.number}</p>
@@ -8,4 +8,4 @@ const HowItWorksCard = (props) => {
         </motion.div>
     )
 }
-export default HowItWorksCard
+export default HowItWorksCardc

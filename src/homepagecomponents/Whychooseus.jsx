@@ -1,5 +1,5 @@
 import { motion } from "motion/react"
-import WhyUsCard from "../components/WhyusCard"
+import WhyUsCardc from "../components/WhyusCard"
 import { features } from "../assets/Utility"
 const WhyChooseUsSection = () => {
     return (
@@ -16,7 +16,7 @@ const WhyChooseUsSection = () => {
                 </div>
                 <div className="why-us-grid grid md:grid-cols-4 gap-5 mt-16">
                     {features.map((feature, index) => (
-                        <WhyUsCard icon={feature.icon} title={feature.title} description={feature.description} key={index} />
+                        <WhyUsCardc icon={feature.icon} title={feature.title} description={feature.description} key={index} />
 
                     ))}
 

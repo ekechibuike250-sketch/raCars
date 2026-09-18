@@ -20,7 +20,7 @@ const FeaturedCars = () => {
                 </div>
             </div>
             <motion.div className="car-grid w-[90%] mx-auto  grid grid-cols-1 md:grid-cols-3 gap-5  py-4 mt-10" initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 3 }} viewport={{ once: true }}>
-                {cars.map((car, index) => (
+                {cars.slice(0, 3).map((car, index) => (
                     <div className="card " key={index} >
                         <figure className="aspect-4/3 rounded-2xl h-90">
                             <img src={car.image} className="w-full h-full object-cover rounded-2xl" />

@@ -1,6 +1,6 @@
 import { testimonials } from "../assets/Utility"
 import { motion } from 'motion/react'
-const Testimonial = () => {
+const Testimonialt = () => {
     return (
         <section className="py-25">
             <div className="wrapper w-[90%] mx-auto">
@@ -31,4 +31,4 @@ const Testimonial = () => {
         </section>
     )
 }
-export default Testimonial
+export default Testimonialt

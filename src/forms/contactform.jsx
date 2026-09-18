@@ -6,7 +6,7 @@ const contactSchema = z.object({
     email: z.string().email('a valid email is required'),
     message: z.string().min(10, 'message is too short')
 })
-const ContactForm = () => {
+const ContactFormc = () => {
     const { register, handleSubmit, formState: { errors }, } = useForm({
         resolver: zodResolver(contactSchema)
     });
@@ -39,4 +39,4 @@ const ContactForm = () => {
         </div>
     )
 }
-export default ContactForm
+export default ContactFormc

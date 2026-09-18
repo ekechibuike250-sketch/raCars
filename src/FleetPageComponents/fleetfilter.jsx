@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { fleetsfilter } from "../assets/Utility"
-const FleetFilter = (props) => {
+const FleetFilterc = (props) => {
     return (
         <section className="py-15 bg-surface">
             <div className="mx-auto w-[90%]">
@@ -14,4 +14,4 @@ const FleetFilter = (props) => {
         </section>
     )
 }
-export default FleetFilter
+export default FleetFilterc

@@ -1,5 +1,5 @@
 import { BMWLogoDark, ToyotaIconDark, MBIconDark, HondaIconDark, AudiIconDark } from "@cardog-icons/react"
-const CarLogos = () => {
+const CarLogosc = () => {
     return (
         <section className="py-15">
             <div className="w-[90%] mx-auto">
@@ -40,4 +40,4 @@ const CarLogos = () => {
         </section>
     )
 }
-export default CarLogos
+export default CarLogosc

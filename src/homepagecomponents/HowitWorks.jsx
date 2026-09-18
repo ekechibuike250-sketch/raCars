@@ -1,8 +1,8 @@
-import HowItWorksCard from "../components/howItworksCard"
+import HowItWorksCardc from "../components/howItworksCard"
 import { steps } from "../assets/Utility"
 import { motion } from "motion/react"
 import stepsImage from '../assets/stepsImage.webp'
-const HowItWorks = () => {
+const HowItWorksc = () => {
     return (
         <section className="py-20">
             <div className="wrapper w-[90%] mx-auto">
@@ -22,7 +22,7 @@ const HowItWorks = () => {
                 </div>
                 <div className="howIt-works-step mt-5 grid grid-cols-1 gap-5 md:w-[40%] md:mx-auto ">
                     {steps.map((step, index) => (
-                        <HowItWorksCard number={step.number} title={step.title} description={step.description} key={index} />
+                        <HowItWorksCardc number={step.number} title={step.title} description={step.description} key={index} />
 
                     ))}
 
@@ -33,4 +33,4 @@ const HowItWorks = () => {
         </section>
     )
 }
-export default HowItWorks
+export default HowItWorksc

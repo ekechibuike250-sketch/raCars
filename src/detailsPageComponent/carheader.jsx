@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import { useNavigate } from "react-router-dom";
 
-const CarHeader = (props) => {
+const CarHeader1 = (props) => {
     const imageRef = useRef(null)
     const [isExterior, setIsExterior] = useState(true);
     const Navigate = useNavigate();
@@ -98,4 +98,4 @@ const CarHeader = (props) => {
         </section>
     )
 }
-export default CarHeader
+export default CarHeader1

@@ -1,4 +1,4 @@
-const FleetHero = () => {
+const FleetHeroc = () => {
     return (
         <section className="min-h-[80vh] py-22">
             <div className="max-w-[90%] mx-auto">
@@ -8,4 +8,4 @@ const FleetHero = () => {
         </section>
     )
 }
-export default FleetHero
+export default FleetHeroc

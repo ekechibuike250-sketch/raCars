@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const SearchPage = () => {
+const SearchPagec = () => {
     const [searchD, setSearchD] = useState({})
     useEffect(() => {
         const lData = JSON.parse(localStorage.getItem('searchInput'));
@@ -13,4 +13,4 @@ const SearchPage = () => {
         </div>
     )
 }
-export default SearchPage
+export default SearchPagec

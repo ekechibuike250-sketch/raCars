@@ -1,5 +1,5 @@
 import { FleetPics } from "../assets/Utility"
-const Fleet = () => {
+const aboutFleet = () => {
     return (
         <section className="py-28 bg-surface">
             <div className="w-[90%] mx-auto grid grid-cols-1 gap-10 md:grid-cols-[550px_1fr] items-center">
@@ -19,4 +19,4 @@ const Fleet = () => {
     )
 }
 
-export default Fleet
+export default aboutFleet
