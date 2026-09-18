@@ -5,7 +5,7 @@ import './feature.css'
 
 const HomeHeroComponent = () => {
     return (
-        <section className="feature pt-20 md:pt-7 md:pb-7 bg-ink h-dvh md:h-[80dvh] relative" style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+        <section className="feature pt-20 md:pt-7 md:pb-7 bg-ink h-dvh md:h-[80dvh] relative" style={{ backgroundImage: `${heroBackgroundImage}`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
             <div className="herowrapper md:py-45 w-[90%] mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-5 items-center">
                 <div className="hero-header-text h-full  md:pt-5" style={{ paddingTop: '0px' }}>
                     <motion.h1 initial={{ opacity: 0, y: 100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} viewport={{ once: true }} className="font-heading text-hero font-bold text-paper  " style={{ wordBreak: 'break-word' }}>Drive Something Extraordinary.</motion.h1>
